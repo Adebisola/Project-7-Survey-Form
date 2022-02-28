@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Nunito:ital,wght@1,300&family=Roboto:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,300&family=Roboto:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,600&family=Nunito:ital,wght@1,300&family=Roboto:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(images/undraw_Ideas_re_7twj.png);
+    color: #fff;
+    font-family: 'Montserrat', 'san serif';
+}
+
+.form-header {
+    text-align: center;
+    color: #000000;
+    font-family: 'nunito';
+}
+
+.form-container {
+    display: block;
+    padding: 40px;
+    background-color: rgb(4, 80, 80);
+    max-width: 600px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+#email-label,
+#name-label,
+#number-label {
+    margin-bottom: 10px;
+}
+
+.personal-info input,
+select {
+    padding: 12px 15px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}
+
+.radio-label {
+    display: flex;
+    flex-direction: column;
+    vertical-align: text-top;
+    justify-content: flex-start;
+}
+
+.radio-label label {
+    margin-left: 6px;
+}
+
+.radio-label>div {
+    display: flex;
+    margin-bottom: 10px;
+    vertical-align: text-top;
+    justify-content: flex-start;
+}
+
+.checkboxes {
+    display: flex;
+    flex-direction: column;
+}
+
+.checkboxes label {
+    margin-left: 6px;
+}
+
+.checkboxes>div {
+    margin-bottom: 10px;
+    display: flex;
+    vertical-align: text-top;
+    justify-content: flex-start;
+}
+
+.checkboxes:nth-child() {
+    margin-bottom: none;
+}
+
+.textarea-msg {
+    border-radius: 2px;
+}
+
+.textarea-msg label {
+    margin-bottom: 10px;
+}
+
+textarea {
+    outline: none;
+    border: none;
+    padding: 12px 15px;
+}
+
+.submit-btn button {
+    margin-top: 20px;
+    width: 100%;
+    padding: 12px 15px;
+}
